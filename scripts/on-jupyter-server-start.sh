@@ -9,7 +9,7 @@ export NOTEBOOK_URL="https://github.com/stephenjbradshaw/prism-samplernn-jupyter
 export PRISM_SAMPLERNN_DIR="prism-samplernn"
 export PRISM_SAMPLERNN_URL="https://github.com/rncm-prism/prism-samplernn.git"
 
-# cd /home/sagemaker-user
+cd /home/sagemaker-user
 
 # Get the notebook if not exists
 if [ ! -f "notebook.ipynb" ] ; then
