@@ -4,4 +4,4 @@ This is a version of RNCM PRiSM's [PRiSM SampleRNN Google Colab notebook](https:
 
 [PRiSM SampleRNN](https://www.rncm.ac.uk/research/research-centres-rncm/prism/prism-collaborations/prism-samplernn/) is an AI-assisted composition tool that "learns" from audio input to generate new audio output. It is open-source software authored by Dr Christopher Melen, [RNCM PRiSM](https://www.rncm.ac.uk/research/research-centres-rncm/prism/).
 
-This repository is cloned into new instances of a SageMaker Studio app on AWS (along with [prism-samplernn](https://github.com/rncm-prism/prism-samplernn) itself) using SageMaker Studio's [lifecycle configuration scripts](https://aws.amazon.com/blogs/machine-learning/customize-amazon-sagemaker-studio-using-lifecycle-configurations/). These scripts also install the necessary packages.
+This repository also contains the scripts used to set up the SageMaker Studio environment in which the notebook runs. This is achieved using SageMaker Studio's [lifecycle configurations](https://aws.amazon.com/blogs/machine-learning/customize-amazon-sagemaker-studio-using-lifecycle-configurations/).
