@@ -4,4 +4,4 @@
 set -eux
 
 # Install required packages
-%pip install --upgrade natsort pydub librosa keras-tuner
+pip install --upgrade natsort pydub librosa keras-tuner

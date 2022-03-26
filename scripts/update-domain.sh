@@ -3,7 +3,7 @@
 
 set -eux
 
-aws sagemaker update-domain --domain-id <sageMakerDomainId> \
+aws sagemaker update-domain --domain-id <DomainId> \
 --default-user-settings '{
 "JupyterServerAppSettings": {
   "DefaultResourceSpec": {
@@ -11,6 +11,17 @@ aws sagemaker update-domain --domain-id <sageMakerDomainId> \
     "InstanceType": "system"
    },
    "LifecycleConfigArns": [
-      "<ARN>" 
+     "<ARN>"
    ]
-}}'
+},
+"KernelGatewayAppSettings": {
+   "DefaultResourceSpec": {
+      "InstanceType": "ml.g4dn.xlarge",
+      "LifecycleConfigArn": "<ARN>",
+      "SageMakerImageArn": "<ARN>"
+   },
+    "LifecycleConfigArns": [
+      "<ARN>"
+   ]
+}
+}'
