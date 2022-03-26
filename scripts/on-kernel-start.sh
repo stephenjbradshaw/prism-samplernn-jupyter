@@ -4,4 +4,5 @@
 set -eux
 
 # Install required packages
-pip install --upgrade natsort pydub librosa keras-tuner
+cd prism-samplernn
+pip install -r "requirements.txt"

@@ -16,9 +16,8 @@ aws sagemaker update-domain --domain-id <DomainId> \
 },
 "KernelGatewayAppSettings": {
    "DefaultResourceSpec": {
-      "InstanceType": "ml.g4dn.xlarge",
       "LifecycleConfigArn": "<ARN>",
-      "SageMakerImageArn": "<ARN>"
+      "InstanceType": "ml.g4dn.xlarge"
    },
     "LifecycleConfigArns": [
       "<ARN>"

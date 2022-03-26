@@ -3,10 +3,12 @@
 
 set -eux
 
-export LCC_SCRIPT_NAME='on-jupyter-server-start-<DateTime>'
-export SCRIPT_FILE_NAME='on-jupyter-server-start.sh'
-export SCRIPT_TYPE="JupyterServer"
-# export SCRIPT_TYPE="KernelGateway"
+# export LCC_SCRIPT_NAME='on-jupyter-server-start-<DateTime>'
+export LCC_SCRIPT_NAME='on-kernel-start-<DateTime>'
+# export SCRIPT_FILE_NAME='on-jupyter-server-start.sh'
+export SCRIPT_FILE_NAME='on-kernel-start.sh'
+# export SCRIPT_TYPE="JupyterServer"
+export SCRIPT_TYPE="KernelGateway"
 
 export LCC_CONTENT=`cat ${SCRIPT_FILE_NAME} | base64`
 
