@@ -72,6 +72,3 @@ sleep 30
 
 # Calling the script to set the idle-timeout and active the extension
 /home/sagemaker-user/.auto-shutdown/set-time-interval.sh
-
-# ----- GO TO CORRECT DIRECTORY FOR RUNNING NOTEBOOK COMMANDS -----
-cd "/home/sagemaker-user/$PRISM_SAMPLERNN_DIR"
